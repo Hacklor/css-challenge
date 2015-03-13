@@ -1,0 +1,44 @@
+.testimonials {
+  background-color: $divider-color;
+  height: 28 * $line-height;
+
+  h2 {
+    color: $text-color;
+    margin-bottom: 2 * $line-height;
+  }
+
+  .container {
+    padding-top: 2 * $line-height;
+    padding-bottom: 2 * $line-height;
+  }
+
+  .testimonial {
+    background-color: white;
+
+    float: left;
+    width: 30%;
+    margin: .5em;
+    padding-top: 2 * $line-height;
+    padding-bottom: 2 * $line-height;
+
+    height: 14 * $line-height;
+
+    img {
+      border: 5px solid $accent-color;
+      border-radius: 5 * $line-height;
+      width: image-width(5 * $line-height);
+      width: image-height(5 * $line-height);
+    }
+
+    .introduction {
+      margin-top: $line-height;
+      margin-bottom: $line-height;
+    }
+
+    p {
+      color: $secondary-text-color;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

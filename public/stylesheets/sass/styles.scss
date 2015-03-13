@@ -1,0 +1,72 @@
+@import 'yui_reset';
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Serif:400,700,400italic,700italic);
+
+// Colors
+$background-color: #fff;
+$primary-color: #3f51b5;
+$light-primary-color: #c5cae9;
+$text-color: #fff;
+$accent-color: #03a9f4;
+$primary-text-color: #333;
+$secondary-text-color: #727272;
+$divider-color: #b6b6b6;
+
+$line-height: 28px;
+
+$font-size-base: 17px;
+$font-size-xlarge: 3 * $font-size-base;
+$font-size-large: 1.7 * $font-size-base;
+
+$font-sans: 'Droid Sans', sans-serif;
+$font-serif: 'Droid Serif', serif;
+
+$container-width: 940px;
+$column-width: 60px;
+
+body {
+  background: $background-color;
+  color: $primary-text-color;
+  font-family: $font-serif;
+
+  line-height: $line-height;
+  font-size: $font-size-base;
+}
+
+.debug {
+  background-image: url('/images/bg.png');
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: $font-sans;
+  font-weight: bold;
+  font-size: $font-size-xlarge;
+  line-height: 3 * $line-height;
+}
+
+h2 {
+  font-family: $font-sans;
+  font-weight: bold;
+  font-size: $font-size-large;
+  line-height: 3 * $line-height;
+}
+
+h3 {
+  line-height: $line-height;
+  text-transform: uppercase;
+}
+
+h4 {
+  line-height: $line-height;
+  font-style: italic;
+}
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@import 'header';
+@import 'features';
+@import 'testimonials';

@@ -1,0 +1,13 @@
+.features {
+  height: 18 * $line-height;
+
+  .container {
+    padding-top: 2 * $line-height;
+    padding-bottom: 2 * $line-height;
+  }
+
+  .feature {
+    width: 50%;
+    float: left;
+  }
+}
