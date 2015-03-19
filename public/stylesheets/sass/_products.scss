@@ -1,0 +1,65 @@
+$products-background-color: $light-primary-color;
+$products-button-background-color: $light-primary-color;
+
+$product-orange: #fC582F;
+$product-green: #8CC252;
+$product-puky-green: #CDDA48;
+$product-blue: #1DAAF1;
+$product-yellow: #FEC02E;
+
+.products {
+  background-color: $products-background-color;
+
+  .product {
+    padding-right: 36px;
+    padding-left: 36px;
+
+    height: 100%;
+    color: $text-color;
+
+    img {
+      padding-top: 2 * $line-height;
+      padding-bottom: $line-height;
+      height: 3 * $line-height;
+    }
+
+    p {
+      overflow: hidden;
+      height: 3 * $line-height;
+      margin-bottom: $line-height;
+    }
+
+    .details-button {
+      line-height: 2 * $line-height;
+    }
+
+    a {
+      background-color: $products-button-background-color;
+    }
+  }
+
+  .product-orange {
+    @extend .product;
+    background-color: $product-orange;
+  }
+
+  .product-green {
+    @extend .product;
+    background-color: $product-green;
+  }
+
+  .product-puky-green {
+    @extend .product;
+    background-color: $product-puky-green;
+  }
+
+  .product-blue {
+    @extend .product;
+    background-color: $product-blue;
+  }
+
+  .product-yellow {
+    @extend .product;
+    background-color: $product-yellow;
+  }
+}

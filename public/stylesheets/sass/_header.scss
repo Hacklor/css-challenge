@@ -10,19 +10,5 @@ header {
   p.call-to-action {
     padding-top: 2 * $line-height;
     line-height: 2 * $line-height;
-
-    a {
-      background-color: $accent-color;
-      color: $text-color;
-
-      text-decoration: none;
-      font-family: $font-sans;
-      font-size: 1.3 * $font-size-base; // Medium?
-
-      padding-top: .4 * $line-height;
-      padding-bottom: .4 * $line-height;
-      padding-left: .7 * $line-height;
-      padding-right: .7 * $line-height;
-    }
   }
 }
